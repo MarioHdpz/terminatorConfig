@@ -1,0 +1,22 @@
+[global_config]
+  borderless = True
+  title_receive_bg_color = "#729fcf"
+  title_transmit_bg_color = "#204a87"
+[keybindings]
+  next_tab = <Primary>Right
+  prev_tab = <Primary>Left
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
